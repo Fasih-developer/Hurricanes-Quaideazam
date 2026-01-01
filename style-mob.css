@@ -1,0 +1,138 @@
+/* -------------------------------navigation bar -------------------------------------- */
+nav{
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+}
+nav>a{
+    font-size: 8vw;
+}
+.nav-links{
+    display: none;
+}
+/* -----------------------------------------hero ------------------------------ */
+.hero{
+    overflow: hidden;
+}
+.hero-img img{
+    margin-top: 15vw;
+    margin-left: 8vw;
+    transform: scale(4);
+}
+.hero-text{
+    margin-top: 100vw;
+}
+.hero-text h2{
+    font-weight: 600;
+    font-size: 7vw;
+    text-align: center;
+}
+#ht-right{
+    margin-top: -2vw;
+    text-align: center
+}
+.hero-text h1{
+    margin-top: -4vw;
+    text-align: center;
+    font-size: 16.5vw;
+}
+/* ------------------------------------about----------------------------------- */
+.about-text{
+    height: 90%;
+    width: 90%;
+    padding-top: 5vw;
+}
+.about h2{
+    font-size: 12vw;
+}
+.about p{
+    margin-top:8.5vw;
+    line-height: 19px;
+    font-size: 4.5vw;
+}
+/*---------------------------marque----------------------------------*/
+.marque{
+    height: 22.5vw;
+    padding-top: 3vw;
+}
+.marque h4{
+    font-size: 10vw;
+}
+/* ------------------------------------gallery----------------------------------- */
+.gallery{
+    width: 100%;
+}
+.gallery-images{
+    width: 100%;
+    height: 80vh;
+    /* background-color: rebeccapurple; */
+    padding-left: 3vw;
+    padding-right :3vw;
+    justify-content: space-evenly;
+}
+.gallery-img{
+    width: 32%;
+}
+.gallery-text{
+    width: 100%;
+    height: 70vh;
+    /* background-color: rebeccapurple; */
+    padding-top: 14vw;
+}
+.gallery-text h2{
+    font-size: 9vw;
+}
+.gallery-paragraphs{
+    padding-top: 8vw;
+    width: 100%;
+    height: 90%;
+    /* background-color: red; */
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallery-paragraphs p{
+    width: 100%;
+    text-align: center;
+    color: var(--text_1);
+    font-size: 4.5vw;
+    /* background-color: aqua; */
+}
+.gallery2{
+    height: 45vh;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    padding-top: 8vw;
+}
+.gallery2 h2{
+    font-size: 6vw;
+}
+.gallery2-images{
+    width: 100%;
+    height: 90%;
+    padding-left: 9vw;
+    padding-right: 9vw;
+    flex-wrap: wrap;
+}
+.gallery2-img{
+    height: 40%;
+    width: 45%;
+    flex-wrap: wrap;
+}
+.gallery2-img h4{
+    margin-top: -2vw;
+    font-size: 3.2vw;
+}
+/* ------------------------------------documentary-------------------------------- */
+.documentary-video video{
+    transform: scale(3.5) rotate(90deg);
+}
+.documentary-button button{
+    font-size: 4.1vw;
+    color: var(--background);
+    background-color: var(--text_2);
+    height: 5vh;
+    width: 45vw;
+}
