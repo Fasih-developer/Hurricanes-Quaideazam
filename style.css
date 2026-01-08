@@ -39,6 +39,7 @@ nav{
 nav>a{
     text-decoration: none;
     color: var(--text_1);
+    /* background-color: red; */
     font-size: 2vw;
     font-weight: 500;
 }
@@ -95,7 +96,7 @@ nav>a{
     margin-top: 15vw;
     width: 100%;
     /* background-color: red; */
-    position: absolute;
+    position: absolute;  
     padding-left: 4vw;
     padding-right: 4vw;
 }
@@ -122,6 +123,7 @@ nav>a{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color: aqua; */
 }
 .about-text{
     height: 65%;
@@ -134,8 +136,10 @@ nav>a{
     font-family: playfair display;
     font-weight: 800;
     font-size: 5vw;
+    /* background-color: red; */
 }
 .about p{
+    /* background-color: red; */
     margin-top: 1.5vw;
     color: var(--text_1);
     line-height: 25px;
@@ -303,11 +307,6 @@ nav>a{
     width: 100%;
     transform: scale(1.5);
     height: 100%;
-}
-.documentary-video img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 .documentary a{
     text-decoration: none;
